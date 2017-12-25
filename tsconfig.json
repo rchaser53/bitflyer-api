@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"noImplicitAny": false,
+		"removeComments": false,
+		"noLib": false,
+		"target": "es2015",
+		"allowJs": true,
+		"module": "commonjs",
+		"experimentalDecorators": true,
+		"declaration": false,
+		"strictNullChecks": true,
+		"noUnusedLocals": true,
+		"noEmit": false,
+		"noImplicitReturns": true,
+    "noImplicitThis": true,
+		"rootDir": "./src/ts",
+		"outDir": "./src/js",
+		"forceConsistentCasingInFileNames": true,
+		"lib":[
+			"es2015",
+			"es2016",
+			"dom",
+			"es2017.object"
+		]
+	},
+	"compileOnSave":false,
+	"exclude":[
+    "node_modules"
+  ],
+	"include":[
+		"src/ts/*.ts"
+	]
+}
